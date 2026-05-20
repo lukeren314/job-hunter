@@ -1,0 +1,17 @@
+{
+  "full_name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "phone": "555-555-5555",
+  "location": "San Francisco, CA",
+  "linkedin_url": "https://www.linkedin.com/in/janedoe",
+  "github_url": "https://github.com/janedoe",
+  "portfolio_url": "https://janedoe.dev",
+  "work_authorization": "Authorized to work in the US",
+  "sponsorship_required": "No",
+  "current_company": "Acme Corp",
+  "current_title": "Software Engineer",
+  "desired_salary": "150000",
+  "available_start_date": "2 weeks",
+  "pronouns": "she/her",
+  "application_source": "Company careers page"
+}

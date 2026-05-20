@@ -1,0 +1,14 @@
+[
+  {
+    "platform": "linkedin",
+    "query": "software engineer",
+    "location": "San Francisco, CA",
+    "limit": 50
+  },
+  {
+    "platform": "linkedin",
+    "query": "backend engineer",
+    "location": "San Francisco, CA",
+    "limit": 20
+  }
+]

@@ -1,0 +1,21 @@
+Jane Doe
+San Francisco, CA | 555-555-5555 | jane.doe@example.com | github.com/janedoe
+
+Summary
+Software engineer with experience in backend systems, cloud infrastructure, and distributed services.
+
+Experience
+Acme Corp  San Francisco, CA
+Software Engineer  Jan 2022 – Present
+• Built REST APIs and microservices in Go for platform automation and deployment management.
+• Improved CI/CD pipelines and test coverage across multiple repositories.
+• Managed Kubernetes deployments and Helm chart releases across production clusters.
+
+Education
+University of Example  Anytown, USA
+B.S. Computer Science  2018 – 2022
+
+Technical Skills
+Languages: Go, Python, Java, SQL, Bash
+Cloud/Platform: Kubernetes, Helm, Terraform, AWS, GCP
+Engineering: REST APIs, microservices, CI/CD, containerization

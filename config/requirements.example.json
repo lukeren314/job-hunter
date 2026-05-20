@@ -1,0 +1,23 @@
+{
+  "must_haves": {
+    "location_center": {
+      "name": "San Francisco, CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "radius_miles": 25
+    },
+    "allow_remote": true,
+    "role_categories": ["Software Engineering", "Infrastructure", "Backend", "Cloud"]
+  },
+  "preferences": {
+    "min_salary": 120000,
+    "target_level": "Mid",
+    "prestige_companies": ["Google", "Apple", "Meta", "Amazon", "Microsoft"]
+  },
+  "scoring_weights": {
+    "level_match": 0.4,
+    "field_match": 0.3,
+    "skill_match": 0.2,
+    "salary_bonus": 0.1
+  }
+}

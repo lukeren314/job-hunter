@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Personal config (use the .example files as templates)
+config/personal_info.json
+config/resume.txt
+config/watchlist.json
+config/requirements.json
+
+# Resume file
+resume.pdf
+*.pdf
+
+# Database
+data/*.db
+
+# Reports / output
+reports/
+
+# Dependencies
+node_modules/
+research/node_modules/
+
+# Claude Code session data
+.claude/
+
+# macOS
+.DS_Store
