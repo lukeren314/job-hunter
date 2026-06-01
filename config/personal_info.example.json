@@ -1,17 +1,55 @@
 {
+  "_comment": "Copy this to personal_info.json and fill in your details. All fields are optional — leave blank and the LLM will handle unknown fields.",
+
   "full_name": "Jane Doe",
+  "first_name": "Jane",
+  "last_name": "Doe",
   "email": "jane.doe@example.com",
   "phone": "555-555-5555",
+
   "location": "San Francisco, CA",
+  "country": "United States",
+  "state": "California",
+  "zip_code": "94105",
+
   "linkedin_url": "https://www.linkedin.com/in/janedoe",
   "github_url": "https://github.com/janedoe",
+  "twitter_url": "https://twitter.com/janedoe",
   "portfolio_url": "https://janedoe.dev",
+
   "work_authorization": "Authorized to work in the US",
   "sponsorship_required": "No",
+  "willing_to_relocate": "No",
+
   "current_company": "Acme Corp",
   "current_title": "Software Engineer",
+  "years_experience": "3",
+  "commitment_type": "Full-time",
+  "remote_preference": "Remote",
+
   "desired_salary": "150000",
   "available_start_date": "2 weeks",
   "pronouns": "she/her",
-  "application_source": "Company careers page"
+  "application_source": "Company careers page",
+  "how_did_you_hear": "LinkedIn",
+
+  "education": {
+    "_comment": "First entry is used for heuristic fill. Array form also works: [{...}, {...}]",
+    "school": "Stanford",
+    "school_full": "Stanford University",
+    "degree": "Bachelor of Science in Computer Science",
+    "degree_short": "B.S. Computer Science",
+    "graduation_date": "June 2023",
+    "graduation_year": "2023",
+    "start_year": "2019",
+    "gpa": "3.9"
+  },
+
+  "cover_letter_template": "",
+
+  "gender": "Prefer not to disclose",
+  "race_ethnicity": "Decline to self-identify",
+  "hispanic_latino": "Decline to self-identify",
+  "veteran_status": "I am not a protected veteran",
+  "disability_status": "No, I do not have a disability"
 }

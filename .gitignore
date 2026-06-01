@@ -9,6 +9,9 @@ config/resume.txt
 config/watchlist.json
 config/requirements.json
 
+# LinkedIn browser session (run: node scripts/save_linkedin_session.js)
+config/linkedin_session.json
+
 # Resume file
 resume.pdf
 *.pdf
@@ -25,6 +28,20 @@ research/node_modules/
 
 # Claude Code session data
 .claude/
+
+# Google OAuth token (contains live credentials)
+src/google_token.json
+
+# Python build artifacts
+*.egg-info/
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+
+# Audit/output data
+data/heuristic_audit.json
 
 # macOS
 .DS_Store

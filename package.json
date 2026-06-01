@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linkedin:login": "node scripts/save_linkedin_session.js",
+    "audit": "node src/field_audit.js",
+    "extract": "node src/extractor.js",
+    "discover": "node src/discovery.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,8 @@
     "dotenv": "^17.4.2",
     "playwright": "^1.60.0",
     "playwright-core": "^1.60.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "sqlite": "^5.1.1",
     "sqlite3": "^6.0.1"
   },
